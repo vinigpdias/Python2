@@ -1,14 +1,18 @@
 #variáreis
+from asyncore import read
+
+
 i = int
 n = int
 c = int
 s = int
 
-n = int(input("digite um número: "))
-c = int(input("Digite um numero para c: "))
+n = int(input("digite o total de números: "))
 s = 0
 
 for i in range(1,n):
-    s = s + i
-    print(s)
+    print("Digite o ", i, "º:")
+    c = read()
+    s = s + c
+    #print(s)
     #print(i)
