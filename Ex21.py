@@ -4,8 +4,9 @@ n = int
 p = int
 i = int
 
-n = int(input("digite o número a ser fatorado: "))
-p = 4
+p = int(input("digite o número a ser fatorado: "))
+n = int(input("digite até qual intervalo: "))
+
 
 for i in range(1,n):
     p = p * i
