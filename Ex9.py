@@ -14,5 +14,5 @@ for i in range(1,n):
     print("Digite o ", i, "º:")
     c = read()
     s = s + c
-    #print(s)
+    print(s)
     #print(i)
